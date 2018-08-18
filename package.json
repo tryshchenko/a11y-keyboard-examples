@@ -1,0 +1,17 @@
+{
+  "name": "accessible-html-example",
+  "version": "1.0.0",
+  "description": "Set of examples which suppose to help understading which HTML is accessible for keyboard and which is not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WAI-ARIA",
+    "aria",
+    "html",
+    "wcag"
+  ],
+  "author": "Oleksandr Tryshchenko <ensaierwa@gmail.com> (tryshchenko.com)",
+  "license": "ISC"
+}

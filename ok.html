@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Accessible HTML</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<nav tabindex="-1">
+		<a href="#" tabindex="0" role="article">Home</a>
+		<a href="#" tabindex="-1">About</a>
+		<a href="#" tabindex="0">Contact</a>
+	</nav>
+	<main class="wrapper">
+		<input type="text" value="start">
+		<table tabindex="-1">
+			<head>
+				<th tabindex="0">One</th>
+				<th tabindex="0">Two</th>
+				<th tabindex="0">Three</th>
+			</head>
+			<tbody>
+				<tr>
+					<td tabindex="0">1</td>
+					<td tabindex="0">2</td>
+					<td tabindex="0">3</td>
+				</tr>
+				<tr>
+					<td tabindex="0">4</td>
+					<td tabindex="0">5</td>
+					<td tabindex="0">6</td>
+				</tr>
+				<tr>
+					<td tabindex="0">7</td>
+					<td tabindex="0">8</td>
+					<td tabindex="0">9</td>
+				</tr>
+			</tbody>
+		</table>
+		<input type="text" placeholder="search">
+		<button>-></button>
+	</main>
+</body>
+</html>
